@@ -1,0 +1,499 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  scroll-behavior: smooth;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  line-height: normal;
+}
+
+html {
+  font-size: 139%;
+}
+
+body {
+  width: 85.375rem;
+  height: 120.3125rem;
+  flex-shrink: 0;
+  background: linear-gradient(90deg, #ffe7d1 0%, #fff2e5 100%);
+}
+
+header {
+  width: 82.25rem;
+  height: 6.25rem;
+  flex-shrink: 0;
+  margin-left: 1.56rem;
+  flex-shrink: 0;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+header img {
+  display: none;
+}
+
+.logo {
+  color: #000;
+  font-size: 2.5rem;
+  font-weight: 900;
+  cursor: default;
+}
+
+.navbar a {
+  margin-left: 3.75rem;
+  color: #000;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.btn {
+  width: 12.5rem;
+  height: 3rem;
+  flex-shrink: 0;
+  border: 3px solid #000;
+  background: #ed4d1b;
+  box-shadow: 4px 4px 0px 0px #1e1e1e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+.home {
+  width: 82.25rem;
+  height: 47.25rem;
+  flex-shrink: 0;
+  margin-left: 1.56rem;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  margin-bottom: 5.94rem;
+}
+
+.home .home-card .dash {
+  width: 2.48656rem;
+  height: 2.23425rem;
+  flex-shrink: 0;
+  position: relative;
+  bottom: 1.5rem;
+  right: 1.5rem;
+}
+
+.home-card h1 {
+  width: 25rem;
+  color: #000;
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 105%;
+  margin-bottom: 2rem;
+}
+
+.home-card h1 span {
+  color: #ed4d1b;
+}
+
+.home-card p {
+  width: 23rem;
+  color: #000;
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.arrow-curve {
+  width: 6.09375rem;
+  height: 6.59375rem;
+  flex-shrink: 0;
+  position: relative;
+  left: 8rem;
+  stroke-width: 2px;
+  stroke: #000;
+}
+
+.band {
+  width: 50.625rem;
+  height: 35.0625rem;
+  flex-shrink: 0;
+  margin-bottom: 7.94rem;
+}
+
+.courses {
+  width: 82.25rem;
+  height: 41.625rem;
+  flex-shrink: 0;
+  margin-left: 1.56rem;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.courses-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.courses div {
+  width: 17rem;
+  height: 19.125rem;
+  flex-shrink: 0;
+  border: 2px solid #000;
+  background: #ed4d1b;
+  box-shadow: 4px 4px 0px 0px #000;
+}
+
+.courses .box2,
+.courses .box4 {
+  background: #ff9a3c;
+  margin-bottom: 8rem;
+  margin-left: 1rem;
+}
+
+.courses .box1,
+.courses .box3 {
+  margin-bottom: 10rem;
+  margin-left: 1rem;
+}
+
+.courses .ico {
+  width: 3rem;
+  height: 3rem;
+  flex-shrink: 0;
+  margin-top: 1.69rem;
+  margin-left: 2.06rem;
+}
+
+.courses h3 {
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 900;
+  margin-left: 2.06rem;
+  margin-top: 1rem;
+}
+
+.courses p {
+  width: 12.75rem;
+  color: #000;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-left: 2.12rem;
+  margin-top: 1rem;
+}
+
+.arrow {
+  width: 4rem;
+  height: 4rem;
+  flex-shrink: 0;
+  margin-left: 13rem;
+  margin-top: 3.12rem;
+  cursor: pointer;
+}
+
+.courses h1 {
+  color: #000;
+  text-align: center;
+  font-size: 4rem;
+  font-weight: 900;
+}
+
+.courses h1 span {
+  color: #ed4d1b;
+}
+
+.courses .btn {
+  width: 14.0625rem;
+  height: 3rem;
+  flex-shrink: 0;
+  color: #000;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-top: 4rem;
+  margin-bottom: 15rem;
+}
+
+footer {
+  width: 82.25rem;
+  height: 25.1875rem;
+  flex-shrink: 0;
+  margin-left: 1.56rem;
+  border-right: 1px solid #000;
+  border-bottom: 1px solid #000;
+  border-left: 1px solid #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.desc img {
+  width: 8.3125rem;
+  height: 4.0625rem;
+}
+
+.desc p {
+  width: 17rem;
+  color: #000;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-top: 2rem;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.menu a {
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  margin-left: 7rem;
+  margin-right: 7rem;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  margin-bottom: 3.5rem;
+}
+
+.label h3 {
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+
+.label input {
+  width: 35rem;
+  height: 3rem;
+  flex-shrink: 0;
+  border: 2px solid #000;
+  background: #fff;
+  box-shadow: 4px 4px 0px 0px #000;
+  margin-bottom: 2rem;
+}
+
+@media (max-width: 1366px) {
+  html {
+    font-size: 100%;
+  }
+}
+
+@media (max-width: 360px) {
+  html {
+    font-size: 100%;
+    overflow-x:hidden;
+  }
+  body {
+    width: 22.5rem;
+    height: 209rem;
+    background: linear-gradient(90deg, #ffe7d1 0%, #fff2e5 100%);
+  }
+  header {
+    width: 20.5rem;
+    height: 16.5rem;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+  }
+  header .logo {
+    display: none;
+  }
+  header img {
+    display: flex;
+    font-size: 2rem;
+    font-weight: 900;
+    margin-top: 1rem;
+  }
+  .navbar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3rem;
+    text-align: center;
+  }
+  .navbar a {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  .home {
+    width: 20.5rem;
+    height: 57.9375rem;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    margin-left: 1rem;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .home .band {
+    width: 20.5rem;
+    height: 13.81088rem;
+    margin-top: 2.25rem;
+    margin-bottom: 1.56rem;
+  }
+  .home-card {
+    width: 17.85863rem;
+    height: 31.04088rem;
+    flex-shrink: 0;
+    border-color: #1e1e1e;
+    border: 1px;
+    margin-bottom: 9.94rem;
+  }
+  .home-card h1 {
+    width: 19rem;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 105%; /* 3.15rem */
+    margin-bottom: 0rem;
+  }
+  .home .home-card .dash {
+    width: 2.51619rem;
+    height: 2.24019rem;
+    bottom: 1rem;
+    right: 1rem;
+  }
+  .home-card p {
+    width: 17.5rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: 2rem;
+  }
+  .arrow-curve{
+    bottom: 1rem;
+
+  }
+  .courses {
+    width: 20.5rem;
+    height: 93.4375rem;
+    border-right: 1px solid #000;
+    border-bottom: 1px solid #000;
+    border-left: 1px solid #000;
+    margin-left: 1rem;
+    
+  }
+  .courses-cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .courses .box1,
+  .courses .box3 {
+    margin-right: 2rem;
+    margin-left: 1.5rem;
+    margin-bottom: 1.25rem;
+  }
+  .courses .box2,
+  .courses .box4 {
+    margin-left: 2rem;
+    margin-right: 1.5rem;
+    margin-bottom: 1.25rem;
+  }
+  .courses h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+  }
+  .courses .btn {
+    margin-top: 0rem;
+    margin-bottom: 10.62rem;
+  }
+  footer {
+    width: 20.5rem;
+    height: 43.3125rem;
+    border-right: 1px solid #000;
+    border-left: 1px solid #000;
+    margin-left: 1rem;
+    flex-direction: column;
+    justify-content: left;
+  }
+  .desc img {
+    font-size: 2rem;
+    margin-top: 2rem;
+  }
+  .desc p {
+    width: 17.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 1rem;
+  }
+  .menu {
+    justify-content: left;
+    margin-left: 1.5rem;
+    margin-top: 3rem;
+    margin-right: 14.56rem;
+    width: 4.4375rem;
+    height: 11.75rem;
+  }
+
+  .menu a {
+    margin-left: 0rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  .label {
+    width: 17rem;
+    height: 11.5rem;
+    margin-top: 3rem;
+  }
+  .label h3 {
+    width: 17rem;
+    height: 3.5rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+  }
+  .label input{
+    width: 17rem;
+    height: 3rem;
+    margin-bottom: 1rem;
+    margin-right: 3rem;
+  }
+  .label .btn{
+    margin-bottom: 2rem;
+  }
+}
